@@ -1,0 +1,11 @@
+@Ecore(
+    nsURI='http://example.com/test',
+    nsPrefix='test')
+@GenModel(
+    modelName='Test Model',
+    prefix='TestModel')
+package test
+
+class TestClass {
+    String name
+}
